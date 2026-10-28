@@ -7,3 +7,6 @@
 /* Text-only project layout: let content determine card height. */
 .project-grid{gap:22px;align-items:start}.project-card{min-height:0;padding:22px}.project-featured{grid-row:span 2}.project-wide{min-height:0}.project-content{margin-top:0}.project-content h3{margin-top:0}.work-heading{margin-bottom:48px}.project-top{margin-bottom:12px}.tags{margin-top:12px}
 @media(max-width:800px){.project-grid{gap:18px}.project-card{padding:18px}.project-featured{grid-row:auto}.work-heading{margin-bottom:38px}}
+
+.language-toggle{border:1px solid var(--ink);background:transparent;color:var(--ink);padding:10px 12px;font-family:var(--mono);font-size:10px;letter-spacing:.06em;cursor:pointer}.language-toggle:hover{background:var(--ink);color:var(--paper)}
+@media(max-width:800px){.site-header.menu-open .nav .language-toggle{margin:14px 32px 16px;width:max-content}}
