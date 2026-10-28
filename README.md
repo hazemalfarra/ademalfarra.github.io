@@ -1,4 +1,4 @@
-# Ad(em) Alfarra Portfolio
+# Adem Alfarra Portfolio
 
 A zero-build, plain local website rebuilt from the portfolio export in the parent folder.
 
