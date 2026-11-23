@@ -117,7 +117,7 @@ const setHTML = (selector, value) => {
 function applyLanguage(language) {
   const t = translations[language];
   document.documentElement.lang = language;
-  document.title = language === 'tr' ? 'Adem Alfarra &mdash; Ürün Sahibi &middot; Ürün Yöneticisi &middot; Scrum Master' : 'Adem Alfarra &mdash; Product Owner &middot; Product Manager &middot; Scrum Master';
+  document.title = language === 'tr' ? 'Adem Alfarra - Ürün Sahibi, Ürün Yöneticisi, Scrum Master' : 'Adem Alfarra - Product Owner, Product Manager, Scrum Master';
   setHTML('.nav > a:not(.nav-cta)', t.nav.slice(0, 4));
   setHTML('.nav-cta', t.nav[4]);
   setHTML('.eyebrow', `<span class="status-dot"></span> ${t.eyebrow}`);
